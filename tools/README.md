@@ -24,3 +24,7 @@ Both need only Python 3 (no packages). Then commit and push; GitHub Pages publis
 When you change `site.css` or `site.js`, also bump the `?v=` number on their links in `sitegen.py` so visitors get the new file straight away.
 
 The Tulu Transliterator is a separate repository, [`tulu-transliterator`](https://github.com/TantryTuluFonts/tulu-transliterator), published under the same address.
+
+## Do not delete
+
+`googlebfe5afd795b599f0.html` in the repository root is the Google Search Console ownership file. The generator does not touch it. If it is removed, Search Console stops treating the site as verified.
