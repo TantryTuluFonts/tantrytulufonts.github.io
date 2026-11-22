@@ -26,4 +26,19 @@ footer{border-top:1px solid var(--line);background:#fff;padding:26px 28px;text-a
 .timeline{list-style:none;margin:10px 0 6px;padding:0;border-left:3px solid var(--line)}
 .timeline li{display:flex;gap:18px;padding:0 0 22px 20px;position:relative}.timeline li:before{content:"";position:absolute;left:-9px;top:7px;width:15px;height:15px;border-radius:50%;background:var(--accent);border:3px solid var(--paper)}
 .timeline .when{flex:0 0 150px;font-weight:700;color:var(--accent)}.timeline p{margin:2px 0 0}.note{font-size:14px;color:#6b6254}
+.btn.wa{background:#1a7f4b;color:#fff}.btn.wa:hover{background:#14663c;opacity:1}
+.sub-title{font-size:19px;color:#4a4339;margin:-6px 0 22px}
+.book-banner{display:flex;flex-wrap:wrap;gap:30px;align-items:center;background:#1c120d;color:#f0e4cd;border-radius:16px;padding:26px;margin:34px 0 10px}
+.book-banner>a{flex:0 0 auto}.book-banner img{width:190px;height:auto;border-radius:8px;display:block;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.book-banner>div{flex:1 1 320px}.book-banner h2{border:0;padding:0;margin:2px 0 0;color:#e7be6e;font-size:34px}
+.book-banner .eyebrow{margin:0;text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:#c9b48a}.book-banner .sub{margin:0 0 10px;color:#f0e4cd;font-size:18px}
+.book-banner a{color:#e7be6e}.book-banner .btn.alt{color:#f0e4cd;border-color:#f0e4cd}.book-banner .btn.wa{color:#fff}
+.book-hero{display:flex;flex-wrap:wrap;gap:34px;align-items:flex-start;margin:6px 0 10px}
+.book-hero>img{flex:0 0 auto;width:260px;height:auto;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.35)}.book-hero>div{flex:1 1 380px}
+blockquote{margin:22px 0;padding:6px 22px;border-left:4px solid var(--accent);background:#fff;border-radius:0 10px 10px 0}
+blockquote p{font-size:18px;line-height:1.65;font-style:italic;margin:14px 0}blockquote footer{background:none;border:0;padding:0 0 12px;text-align:left;font-size:14px;color:#6b6254}
+blockquote.author p{font-style:normal;font-size:17px}
+table.parts th{width:230px;background:#efe7d6}table.parts th span{font-weight:400;font-size:13px;color:#6b6254}
+.steps{padding-left:22px}.steps li{margin:10px 0}
+@media (max-width:600px){.book-hero>img{width:200px}.book-banner h2{font-size:28px}table.parts th{width:auto}}
 @media (max-width:600px){.top{padding:12px 16px}main{padding:28px 16px 44px}.lead{font-size:18px}.timeline li{flex-direction:column;gap:2px}.portrait img{width:180px;height:180px}}
