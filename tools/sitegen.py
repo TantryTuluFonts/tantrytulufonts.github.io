@@ -284,8 +284,8 @@ BOOK_LD = {
     'alternateName': ['Tulu Varnamruta', 'Tulu Varnamrta', 'Tuḷu Varṇāmṛta'],
     'author': {'@id': PERSON['@id']},
     'illustrator': {'@type': 'Person', 'name': 'Aditya Ranjan Biswal'},
-    'publisher': {'@type': 'Organization', 'name': 'Punname Publications',
-                  'parentOrganization': {'@type': 'Organization', 'name': 'Tuḷu Cultural Research Foundation'}},
+    'publisher': {'@type': 'Organization', 'name': 'Tuḷu Cultural Research Foundation'},
+    'isbn': '9788118012306', 'bookFormat': 'https://schema.org/Paperback',
     'bookEdition': 'First Edition', 'datePublished': '2026', 'inLanguage': 'en',
     'genre': 'Writing systems and orthography',
     'about': ['Tulu script', 'Tulu orthography', 'Tulu-Tigalari script'],
@@ -305,7 +305,7 @@ page('/tulu-varnamruta/',
 <p class="lead">Everything you need to read and write the traditional Tuḷu script, in one book.</p>
 <p>Tuḷu Varṇāmr̥ta teaches the whole script, from vowels and consonants to conjuncts and Vedic symbols, with romanization beside every example. You do not need to piece it together from multiple sources, and you do not need to know any other Indic script. By the final chapter, you are reading a complete story in Tuḷu.</p>
 <p>It also introduces <a href="/tulu-script-standard/"><strong>a standard for writing Tuḷu</strong></a>, something the language has long lacked. The standard keeps the traditional script exactly as it is and still accommodates what modern Tuḷu needs.</p>
-<p class="meta"><span>First edition, 2026</span><span>B5 format</span><span>Punname Publications, an imprint of TCRF</span></p>
+<p class="meta"><span>ISBN 978-81-180123-0-6</span><span>Paperback</span><span>First edition, 2026</span><span>B5 format</span><span>Punname Publications, an imprint of TCRF</span></p>
 <p class="cta"><a class="btn wa" href="{BUY}" rel="noopener">Buy on WhatsApp</a> <a class="btn alt" href="/tulu-script-standard/">Why this standard matters</a></p>
 <p class="note">Tap the button to message us on WhatsApp. The price and how to purchase are shared there.</p>
 </div></div>
@@ -372,7 +372,7 @@ page('/tulu-varnamruta/',
 <h3>Can I quote it or copy it?</h3>
 <p>You may cite, quote and reference the book in academic, scholarly, educational and other non-commercial contexts, with credit to the author. Reproducing or distributing the book, in whole or in substantial part, or publishing a reprint, translation or derivative edition, needs the written permission of the copyright holder.</p>
 <h3>How should I cite it?</h3>
-<p>Tantry, Prahlad Prasad. <em>Tuḷu Varṇāmr̥ta: A Prescriptive Primer to the Tuḷu Script</em>. First edition. Punname Publications, 2026.</p>''',
+<p>Tantry, Prahlad Prasad. <em>Tuḷu Varṇāmr̥ta: A Prescriptive Primer to the Tuḷu Script</em>. First edition. Tuḷu Cultural Research Foundation (Punname Publications), 2026. ISBN 978-81-180123-0-6.</p>''',
      [BOOK_LD], og_image='/assets/varnamrta-card.jpg', card='summary_large_image')
 
 # ---------------- The standard ----------------
